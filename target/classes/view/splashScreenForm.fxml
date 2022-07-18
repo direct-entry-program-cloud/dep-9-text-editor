@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="368.0" prefWidth="659.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <AnchorPane layoutX="360.0" layoutY="1.0" prefHeight="367.0" prefWidth="302.0" style="-fx-background-color: yellow;">
+         <children>
+            <ImageView fitHeight="118.0" fitWidth="128.0" layoutX="95.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/text.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblStatus" alignment="CENTER" layoutY="208.0" prefHeight="18.0" prefWidth="298.0" text="Loading....." />
+            <Label alignment="CENTER" layoutX="5.0" layoutY="168.0" prefHeight="33.0" prefWidth="298.0" text="DEP - 9 Text Editor">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="-4.0" layoutY="263.0" prefHeight="18.0" prefWidth="301.0" text="CpyRight @ 2022 Dep9. All Rights Reserved" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="367.0" fitWidth="454.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/dots.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
